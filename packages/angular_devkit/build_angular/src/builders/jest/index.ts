@@ -113,6 +113,7 @@ export default createBuilder(
 
       // Optionally enable color.
       ...(colors.enabled ? ['--colors'] : []),
+      '--collectCoverage'
     ]);
 
     // Stream test output to the terminal.
